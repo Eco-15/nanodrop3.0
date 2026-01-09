@@ -47,6 +47,16 @@ export default function ProductPage() {
       <Header />
       <main className='min-h-screen pt-20 md:pt-24 pb-16 bg-cream/30'>
         <div className='container mx-auto px-4 lg:px-8'>
+          {/* Coming Soon Banner */}
+          <div className='mb-12 text-center'>
+            <h1 className='text-6xl md:text-8xl font-bold text-forest mb-4'>
+              COMING SOON
+            </h1>
+            <p className='text-2xl text-forest/70'>
+              Our product page is launching soon. Stay tuned!
+            </p>
+          </div>
+
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16'>
             {/* Product Images */}
             <div className='space-y-4'>

@@ -146,7 +146,7 @@ export default function SciencePage() {
                 </div>
               </div>
 
-              <div className='mt-12 bg-gradient-to-r from-sage to-sage-light rounded-2xl p-8 text-center text-white'>
+              <div className='mt-12 bg-sage rounded-2xl p-8 text-center text-white'>
                 <p className='text-2xl font-bold'>Together, they create comprehensive, multi-layered immune support.</p>
               </div>
             </div>
