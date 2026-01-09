@@ -339,29 +339,6 @@ export default function SciencePage() {
           </div>
         </section>
 
-        {/* Final CTA */}
-        <section className='py-20 bg-gradient-to-br from-sage via-sage to-sage-light'>
-          <div className='container mx-auto px-4 lg:px-8'>
-            <div className='max-w-4xl mx-auto text-center text-white'>
-              <h2 className='text-4xl md:text-5xl font-bold mb-6'>
-                Ready to Experience the Difference?
-              </h2>
-              <p className='text-2xl mb-4'>Premium Immunity, One Drop at a Time</p>
-              <p className='text-xl mb-8 text-white/90'>
-                DROP Nano Immune Support delivers all five essential immune defenders with up to 90% bioavailability, absorption in minutes, and all-day protection from a single daily dose.
-              </p>
-              <p className='text-lg mb-8 text-white/80'>
-                Six pumps each morning. Complete immune support.
-              </p>
-              <Link
-                href='/product'
-                className='inline-block bg-honey hover:bg-honey-dark text-white font-bold py-4 px-12 rounded-lg text-lg transition-all duration-300 shadow-2xl hover:shadow-3xl hover:scale-105'
-              >
-                Shop DROP Nano Immune Support
-              </Link>
-            </div>
-          </div>
-        </section>
       </main>
       <Footer />
     </>

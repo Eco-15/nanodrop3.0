@@ -366,29 +366,6 @@ export default function ProductPage() {
             </div>
           </div>
 
-          {/* Call to Action */}
-          <div className='mt-20 bg-gradient-to-r from-sage to-forest rounded-2xl p-12 md:p-16 text-center text-white'>
-            <h2 className='text-3xl md:text-4xl font-bold mb-4'>
-              Ready to Transform Your Immunity?
-            </h2>
-            <p className='text-lg text-white/90 mb-8 max-w-2xl mx-auto'>
-              Join thousands of people who've experienced faster immune response and better overall health with DROP's nano-technology.
-            </p>
-            <button 
-              onClick={() => {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-                setSelectedPackage(3);
-              }}
-              className='bg-honey hover:bg-honey-dark text-white font-bold py-4 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 text-lg inline-flex items-center gap-2'
-            >
-              <ShoppingCart className='w-5 h-5' />
-              Get Your Supply Today
-            </button>
-            <p className='mt-6 text-white/80 text-sm'>
-              🔒 Secure checkout • 📦 Fast shipping • 💚 90-day guarantee
-            </p>
-          </div>
-
         </div>
       </main>
       <Footer />

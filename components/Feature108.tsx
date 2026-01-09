@@ -44,7 +44,7 @@ const Feature108 = ({
           "NanoZorb™ technology reduces nutrients to 20-80nm particles that absorb through oral mucosa in minutes, not hours. Experience immune support that activates when you need it most.",
         buttonText: "Learn More",
         imageSrc:
-          "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=800&auto=format&fit=crop",
+          "https://lyz5cvfr0h.ufs.sh/f/tLx4hl5ikmOnAaRj0TBerOcK61jIM4ZmgSpzHL7Ci8FnD0Xt",
         imageAlt: "Rapid absorption technology",
       },
     },
@@ -59,7 +59,7 @@ const Feature108 = ({
           "Our nano-sized particles deliver 4-10× more active ingredients directly to your cells compared to capsules or powders. Get the protection your body deserves.",
         buttonText: "See Science",
         imageSrc:
-          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=800&auto=format&fit=crop",
+          "https://lyz5cvfr0h.ufs.sh/f/tLx4hl5ikmOnFOMwupgdhktn0l9Vv7ZApYCzG1iNX84RuD3H",
         imageAlt: "Cellular protection",
       },
     },
@@ -74,7 +74,7 @@ const Feature108 = ({
           "Just 6 pumps each morning provides sustained immune support throughout your entire day. Higher bioavailability means you need less to achieve more.",
         buttonText: "Shop Now",
         imageSrc:
-          "https://images.unsplash.com/photo-1469022563149-aa64dbd37dda?q=80&w=800&auto=format&fit=crop",
+          "https://lyz5cvfr0h.ufs.sh/f/tLx4hl5ikmOnlCu2bn8EfQTV7ApbyFLmjY5GCZhaPcN4nzo9",
         imageAlt: "All-day protection",
       },
     },

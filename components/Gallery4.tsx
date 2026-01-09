@@ -33,7 +33,7 @@ const data = [
       "Explore how our proprietary NanoZorb™ technology reduces nutrients to 20-80 nanometers for unprecedented bioavailability and cellular uptake.",
     href: "/science",
     image:
-      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1080&h=720&fit=crop",
+      "https://lyz5cvfr0h.ufs.sh/f/tLx4hl5ikmOnqjeylh0f0rumkpwBXbZgQ169Mj5tITK2SiFY",
   },
   {
     id: "immune-support",
@@ -42,7 +42,7 @@ const data = [
       "Discover how DROP's five powerful ingredients work together to activate your immune response in 60-120 seconds for all-day protection.",
     href: "/product",
     image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1080&h=720&fit=crop",
+      "https://lyz5cvfr0h.ufs.sh/f/tLx4hl5ikmOnT9WHWFSOYKyMgiRoL2B5edw4DcX93EUupS7n",
   },
   {
     id: "natural-ingredients",
@@ -51,7 +51,7 @@ const data = [
       "From Israeli olive leaf extract to German-precision manufactured nano particles, every ingredient is chosen for maximum efficacy.",
     href: "/product",
     image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1080&h=720&fit=crop",
+      "https://lyz5cvfr0h.ufs.sh/f/tLx4hl5ikmOn6ei4OXIBMaOvXJICw4x96QTRt3gVWPrHlEsU",
   },
   {
     id: "bioavailability",
@@ -60,7 +60,7 @@ const data = [
       "Achieve up to 90% bioavailability compared to 30-60% for traditional supplements. See results in minutes, not hours.",
     href: "/science",
     image:
-      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1080&h=720&fit=crop",
+      "https://lyz5cvfr0h.ufs.sh/f/tLx4hl5ikmOnnEXCJVftEwlRJSPX6gNfrmvuq2WM4xeFGATH",
   },
   {
     id: "daily-protection",
@@ -69,7 +69,7 @@ const data = [
       "One dose provides all-day immunity with sustained protection. Simplify your supplement routine with DROP.",
     href: "/product",
     image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1080&h=720&fit=crop",
+      "https://lyz5cvfr0h.ufs.sh/f/tLx4hl5ikmOniy2zs58hoXrM9uw83NK7abLqpjmcBkZtgnyx",
   },
 ];
 
