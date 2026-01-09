@@ -179,7 +179,7 @@ export default function AboutPage() {
                   },
                   {
                     title: 'Customer First',
-                    desc: 'Your health is our priority. That's why we offer a 90-day money-back guarantee and responsive customer support.',
+                    desc: "Your health is our priority. That's why we offer a 90-day money-back guarantee and responsive customer support.",
                   },
                 ].map((value, index) => (
                   <div key={index} className='bg-white rounded-xl p-8 shadow-md border-l-4 border-sage'>
