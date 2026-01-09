@@ -146,18 +146,6 @@ export default function ProductPage() {
                   </div>
                 </div>
               </div>
-
-              {/* Key Benefits */}
-              <div className='bg-cream rounded-xl p-6'>
-                <h3 className='font-bold text-forest mb-3'>Key Benefits:</h3>
-                <ul className='space-y-2 text-forest/80'>
-                  <li>✓ Activates immune response in 60-120 seconds</li>
-                  <li>✓ 4-10× higher cellular delivery than capsules</li>
-                  <li>✓ Supports respiratory health</li>
-                  <li>✓ Reduces cold and flu duration</li>
-                  <li>✓ One dose = all-day protection</li>
-                </ul>
-              </div>
             </div>
           </div>
 
