@@ -1,8 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import Image from 'next/image';
-import { Atom, Zap, Shield, TrendingUp, Droplets, Leaf, Sun, Waves, Clock, Target, Book, Beaker } from 'lucide-react';
-import Link from 'next/link';
+import { Zap, Droplets, Leaf, Sun, Waves, Clock } from 'lucide-react';
+import { Gallery4 } from '@/components/Gallery4';
 
 export default function SciencePage() {
   const ingredients = [
@@ -53,50 +52,6 @@ export default function SciencePage() {
     },
   ];
 
-  const articles = [
-    {
-      title: 'Why Nano Technology is Revolutionizing Immune Support Supplements',
-      description: 'Discover how particle size transforms supplement absorption, why traditional capsules waste 40-70% of their potency, and how NanoZorb™ technology achieves up to 90% bioavailability.',
-      readTime: '8 min read',
-      image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1080&h=720&fit=crop',
-      href: '/science/nano-technology',
-    },
-    {
-      title: 'From Israeli Olive Groves to Your Immune System: The DROP Story',
-      description: 'Learn why we source olive leaf extract from Israel\'s ancient groves, bottle in German precision glass, and refuse to compromise on ingredient quality.',
-      readTime: '7 min read',
-      image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1080&h=720&fit=crop',
-      href: '/science/premium-sourcing',
-    },
-    {
-      title: '5 Ingredients That Support Your Immune System',
-      description: 'Explore the science behind olive leaf, elderberry, Vitamin D3, zinc, and magnesium—and why nano-enhanced delivery makes all the difference.',
-      readTime: '10 min read',
-      image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1080&h=720&fit=crop',
-      href: '/ingredients',
-    },
-    {
-      title: 'The 60-Second Immune Boost: Why Timing Matters',
-      description: 'Understand why traditional supplements take 2-4 hours to work, how nano technology delivers results in minutes, and why timing is critical for immune support.',
-      readTime: '8 min read',
-      image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1080&h=720&fit=crop',
-      href: '/science/timing-matters',
-    },
-    {
-      title: 'Cold & Flu Season Survival Guide',
-      description: 'A comprehensive, evidence-based approach to staying healthy during cold and flu season—from environmental optimization to targeted nutritional support.',
-      readTime: '9 min read',
-      image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1080&h=720&fit=crop',
-      href: '/science/cold-flu-guide',
-    },
-    {
-      title: '90% Bioavailability vs. Lower Absorption',
-      description: 'Learn how to calculate cost per absorbed nutrient, identify low-bioavailability products, and understand why the number on the label doesn\'t tell you what your body actually receives.',
-      readTime: '9 min read',
-      image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1080&h=720&fit=crop',
-      href: '/bioavailability',
-    },
-  ];
 
   return (
     <>
@@ -291,55 +246,13 @@ export default function SciencePage() {
             </div>
           </div>
         </section>
-        {/* Explore the Science Further */}
-        <section className='py-20 bg-white'>
-          <div className='container mx-auto px-4 lg:px-8'>
-            <div className='max-w-6xl mx-auto'>
-              <h2 className='text-4xl md:text-5xl font-bold text-forest mb-6 text-center'>
-                Explore the Science Further
-              </h2>
-              <p className='text-xl text-forest/70 text-center mb-16'>In-Depth Articles</p>
-              <p className='text-lg text-forest/80 text-center mb-12 max-w-3xl mx-auto'>
-                Dive deeper into the research, mechanisms, and practical applications of nano-enhanced immune support:
-              </p>
-
-              <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
-                {articles.map((article, index) => (
-                  <Link
-                    key={index}
-                    href={article.href}
-                    className='group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-sage/10 hover:border-sage/30'
-                  >
-                    <div className='relative h-48 overflow-hidden'>
-                      <img
-                        src={article.image}
-                        alt={article.title}
-                        className='w-full h-full object-cover transition-transform duration-300 group-hover:scale-110'
-                      />
-                      <div className='absolute top-4 right-4 bg-honey text-white px-3 py-1 rounded-full text-xs font-semibold'>
-                        {article.readTime}
-                      </div>
-                    </div>
-                    <div className='p-6'>
-                      <h3 className='text-xl font-bold text-forest mb-3 group-hover:text-sage transition-colors'>
-                        {article.title}
-                      </h3>
-                      <p className='text-forest/70 mb-4 line-clamp-3'>
-                        {article.description}
-                      </p>
-                      <div className='flex items-center text-sage font-semibold group-hover:translate-x-2 transition-transform'>
-                        Read Full Article
-                        <Book className='w-4 h-4 ml-2' />
-                      </div>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-
       </main>
+
+      {/* Articles Section */}
+      <Gallery4
+        title="Explore DROP Science & Benefits"
+        description="Discover the innovation and research behind DROP's nano-enhanced immune support technology."
+      />
       <Footer />
     </>
   );

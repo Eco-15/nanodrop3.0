@@ -1,6 +1,7 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Shield, Zap, Droplets } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -10,6 +11,7 @@ interface TabContent {
   title: string;
   description: string;
   buttonText: string;
+  buttonHref: string;
   imageSrc: string;
   imageAlt: string;
 }
@@ -43,6 +45,7 @@ const Feature108 = ({
         description:
           "NanoZorb™ technology reduces nutrients to 20-80nm particles that absorb through oral mucosa in minutes, not hours. Experience immune support that activates when you need it most.",
         buttonText: "Learn More",
+        buttonHref: "/science",
         imageSrc:
           "https://lyz5cvfr0h.ufs.sh/f/tLx4hl5ikmOnAaRj0TBerOcK61jIM4ZmgSpzHL7Ci8FnD0Xt",
         imageAlt: "Rapid absorption technology",
@@ -58,6 +61,7 @@ const Feature108 = ({
         description:
           "Our nano-sized particles deliver 4-10× more active ingredients directly to your cells compared to capsules or powders. Get the protection your body deserves.",
         buttonText: "See Science",
+        buttonHref: "/science",
         imageSrc:
           "https://lyz5cvfr0h.ufs.sh/f/tLx4hl5ikmOnFOMwupgdhktn0l9Vv7ZApYCzG1iNX84RuD3H",
         imageAlt: "Cellular protection",
@@ -73,6 +77,7 @@ const Feature108 = ({
         description:
           "Just 6 pumps each morning provides sustained immune support throughout your entire day. Higher bioavailability means you need less to achieve more.",
         buttonText: "Shop Now",
+        buttonHref: "/product",
         imageSrc:
           "https://lyz5cvfr0h.ufs.sh/f/tLx4hl5ikmOnlCu2bn8EfQTV7ApbyFLmjY5GCZhaPcN4nzo9",
         imageAlt: "All-day protection",
@@ -121,9 +126,11 @@ const Feature108 = ({
                   <p className="text-forest/70 lg:text-lg leading-relaxed">
                     {tab.content.description}
                   </p>
-                  <Button className="mt-2.5 w-fit gap-2 bg-honey hover:bg-honey-dark" size="lg">
-                    {tab.content.buttonText}
-                  </Button>
+                  <Link href={tab.content.buttonHref}>
+                    <Button className="mt-2.5 w-fit gap-2 bg-honey hover:bg-honey-dark" size="lg">
+                      {tab.content.buttonText}
+                    </Button>
+                  </Link>
                 </div>
                 <div className="relative w-full aspect-square rounded-xl overflow-hidden shadow-lg">
                   <Image
