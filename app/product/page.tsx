@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import Image from 'next/image';
 import { ShoppingCart, Check, Star, Leaf, Droplets, Sun, Zap, Waves } from 'lucide-react';
 import { useCart } from '@/lib/CartContext';
+import { Gallery4 } from '@/components/Gallery4';
 
 export default function ProductPage() {
   const [selectedPackage, setSelectedPackage] = useState(0);
@@ -355,6 +356,12 @@ export default function ProductPage() {
           </div>
 
         </div>
+
+        {/* Articles Section */}
+        <Gallery4
+          title="Explore DROP Science & Benefits"
+          description="Discover the innovation and research behind DROP's nano-enhanced immune support technology."
+        />
       </main>
       <Footer />
     </>
