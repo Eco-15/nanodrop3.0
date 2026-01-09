@@ -50,23 +50,23 @@ const config: Config = {
           "4": "hsl(var(--chart-4))",
           "5": "hsl(var(--chart-5))",
         },
-        // DROP Brand Colors - Vibrant Olive & Gold
+        // DROP Brand Colors - Updated Green Palette
         honey: {
-          DEFAULT: "#D4AF37", // Rich olive oil gold
+          DEFAULT: "#D4AF37", // Rich gold accent
           dark: "#B8941F", // Deeper gold
         },
         sage: {
-          DEFAULT: "#6B8E23", // Vibrant olive green
-          light: "#8FBC3E", // Bright lime green
-          dark: "#556B2F", // Deep olive
+          DEFAULT: "#A3B18A", // Light sage green (primary)
+          light: "#C4D1B9", // Lighter sage
+          dark: "#588157", // Dark forest green
         },
         cream: {
           DEFAULT: "#FFF8E7", // Warm cream
           warm: "#FFE4B5", // Golden cream
         },
         forest: {
-          DEFAULT: "#2D5016", // Rich forest green
-          light: "#4A7C59", // Bright forest
+          DEFAULT: "#588157", // Dark forest green (text)
+          light: "#6B9668", // Medium green
         },
       },
       fontFamily: {
